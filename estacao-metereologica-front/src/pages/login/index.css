@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* CONTAINER CENTRAL */
+.container-login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BOX PRINCIPAL */
+.box-login {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* LADO ESQUERDO */
+.lado-esquerdo {
+  width: 50%;
+  background: linear-gradient(135deg, #4facfe, #00c6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.lado-esquerdo h1 {
+  font-size: 32px;
+}
+
+/* LADO DIREITO */
+.lado-direito {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lado-direito h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+input {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+/* BOTÃO */
+.btn-login {
+  margin-top: 20px;
+  padding: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #4facfe, #00c6ff);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}

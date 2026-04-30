@@ -1,0 +1,60 @@
+/* HEADER já existente */
+.header-light {
+  background: white;
+  color: black;
+  padding: 20px;
+}
+
+.header-dark {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+/* NOTICIAS */
+.noticias-light {
+  background: #f5f5f5;
+  color: black;
+  padding: 20px;
+}
+
+.noticias-dark {
+  background: #121212;
+  color: white;
+  padding: 20px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+/* tema claro */
+.noticias-light .card {
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* tema escuro */
+.noticias-dark .card {
+  background: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}

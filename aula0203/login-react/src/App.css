@@ -1,0 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo da página */
+body {
+  height: 100vh;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caixa central */
+.container {
+  width: 350px;
+  background: #f2f2f2;
+  padding: 40px 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+/* Título */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.subtitulo {
+  color: gray;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #d9d9d9;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Botão */
+button {
+  margin-top: 25px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #333;
+}
+
+/* Esqueceu senha */
+.esqueci {
+  margin-top: 20px;
+  font-size: 13px;
+  color: gray;
+  cursor: pointer;
+}
